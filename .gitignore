@@ -1,18 +1,2 @@
-# 本地数据 / 日志（不入库，云端会重新生成）
-accounts.db
-accounts.db-*
 *.log
-server_flask.log
 __pycache__/
-*.pyc
-
-# 旧版零依赖服务（云端用 Flask 版）
-auth_server.py
-
-# 本地静态落地页（仅 CloudStudio 用，不进部署包）
-dashboard_publish/
-
-# Python 虚拟环境
-envs/
-venv/
-.venv/
