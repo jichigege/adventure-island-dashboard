@@ -1,8 +1,0 @@
-.git
-__pycache__
-*.pyc
-*.pyo
-accounts.db
-accounts.db-shm
-accounts.db-wal
-.workbuddy
