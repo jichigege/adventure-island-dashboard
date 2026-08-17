@@ -112,7 +112,7 @@ async function doLogin(){
     try{ localStorage.setItem(LS_AUTH, hash); }catch(e){}
     setFail(0); setLock(0);
     showMsg("验证成功，正在进入…", "ok");
-    setTimeout(function(){ location.href = "dashboard.html"; }, 400);
+    setTimeout(function(){ location.href = "dashboard.html?v=20260817112926"; }, 400);
   } else {
     let f = getFail() + 1;
     setFail(f);
